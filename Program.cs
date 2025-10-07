@@ -1,15 +1,24 @@
+using Microsoft.EntityFrameworkCore;
+using MVC_CRUD.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// 🔹 Connection string (z appsettings.json lub bezpośrednio)
+var connString = builder.Configuration.GetConnectionString("MySql");
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseMySql(connString, ServerVersion.AutoDetect(connString))
+);
+
+// 🔹 Add MVC controllers + views
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// 🔹 Middleware i routing
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 

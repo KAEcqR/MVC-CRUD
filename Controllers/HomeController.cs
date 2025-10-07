@@ -1,5 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using MVC_CRUD.Data;
 using MVC_CRUD.Models;
 
 namespace MVC_CRUD.Controllers
@@ -8,14 +10,22 @@ namespace MVC_CRUD.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly AppDbContext _context;
+
+
+        public HomeController(ILogger<HomeController> logger, AppDbContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
-        public IActionResult Index()
+
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var events = await _context.Events
+                .ToListAsync();
+
+            return View(events);
         }
 
         public IActionResult Privacy()

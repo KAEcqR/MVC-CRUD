@@ -1,8 +1,25 @@
-﻿@{
+﻿@model IEnumerable<MVC_CRUD.Models.Event>
+@using MVC_CRUD.Models
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container">
+    <div class="row">
+        @foreach (var Event in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">@Event.Title</h5>
+                        <p class="card-text">
+                            <strong>Date:</strong> @Event.Date.ToString("dd.MM.yyyy")<br />
+                            <strong>Artist:</strong> @Event.Artist
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
 </div>
