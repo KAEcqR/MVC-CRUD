@@ -3,6 +3,7 @@ using System;
 using MVC_CRUD.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MVC_CRUD.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251008151736_MGx02")]
+    partial class MGx02
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -40,6 +43,9 @@ namespace MVC_CRUD.Migrations
                     b.Property<int>("VenueId")
                         .HasColumnType("int");
 
+                    b.Property<int>("Year")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.ToTable("Events");
@@ -52,7 +58,8 @@ namespace MVC_CRUD.Migrations
                             Date = new DateOnly(2023, 8, 1),
                             ImagePath = "musicfest.jpg",
                             Title = "Music Fest",
-                            VenueId = 1
+                            VenueId = 1,
+                            Year = 2023
                         },
                         new
                         {
@@ -61,7 +68,8 @@ namespace MVC_CRUD.Migrations
                             Date = new DateOnly(2024, 5, 15),
                             ImagePath = "musicfest.jpg",
                             Title = "Tech Expo",
-                            VenueId = 2
+                            VenueId = 2,
+                            Year = 2024
                         },
                         new
                         {
@@ -70,7 +78,8 @@ namespace MVC_CRUD.Migrations
                             Date = new DateOnly(2025, 11, 20),
                             ImagePath = "musicfest.jpg",
                             Title = "Art Show",
-                            VenueId = 3
+                            VenueId = 3,
+                            Year = 2025
                         });
                 });
 

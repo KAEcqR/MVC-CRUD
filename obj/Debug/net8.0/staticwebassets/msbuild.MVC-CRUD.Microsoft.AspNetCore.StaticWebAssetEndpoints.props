@@ -24,6 +24,30 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 02 Oct 2025 22:40:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MVC-CRUD/images/events/43d8a1da-3c16-4fc5-9d7d-54d903dc85aa.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\43d8a1da-3c16-4fc5-9d7d-54d903dc85aa.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Pt0jwuQVzgE/m/C4ABEU8j4SUZcWOBDHBcA1luTI9\u002Bg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1938397"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Pt0jwuQVzgE/m/C4ABEU8j4SUZcWOBDHBcA1luTI9\u002Bg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 08 Oct 2025 16:40:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MVC-CRUD/images/events/43d8a1da-3c16-4fc5-9d7d-54d903dc85aa.qdlg5ub8h4.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\43d8a1da-3c16-4fc5-9d7d-54d903dc85aa.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qdlg5ub8h4"},{"Name":"integrity","Value":"sha256-Pt0jwuQVzgE/m/C4ABEU8j4SUZcWOBDHBcA1luTI9\u002Bg="},{"Name":"label","Value":"_content/MVC-CRUD/images/events/43d8a1da-3c16-4fc5-9d7d-54d903dc85aa.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1938397"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Pt0jwuQVzgE/m/C4ABEU8j4SUZcWOBDHBcA1luTI9\u002Bg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 08 Oct 2025 16:40:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MVC-CRUD/images/events/musicfest.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\musicfest.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"36696"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 08 Oct 2025 15:16:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MVC-CRUD/images/events/musicfest.lytlb8uqvd.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\musicfest.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lytlb8uqvd"},{"Name":"integrity","Value":"sha256-7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU="},{"Name":"label","Value":"_content/MVC-CRUD/images/events/musicfest.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"36696"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 08 Oct 2025 15:16:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MVC-CRUD/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

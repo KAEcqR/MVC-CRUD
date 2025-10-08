@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\43d8a1da-3c16-4fc5-9d7d-54d903dc85aa.png",
+      "PackagePath": "staticwebassets\\images\\events\\43d8a1da-3c16-4fc5-9d7d-54d903dc85aa.png"
+    },
+    {
+      "Id": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\musicfest.jpg",
+      "PackagePath": "staticwebassets\\images\\events\\musicfest.jpg"
+    },
+    {
       "Id": "C:\\Github\\MVC-CRUD\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
