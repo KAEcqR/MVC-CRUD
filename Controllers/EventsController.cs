@@ -62,7 +62,12 @@ namespace MVC_CRUD.Controllers
         [HttpGet]
         public IActionResult RemoveEvent(int Id)
         {
-            _context.Events.Remove(_context.Events.Find(Id));
+                var eventToRemove = _context.Events.Find(Id);
+                if (eventToRemove == null)
+                {
+                    return NotFound();
+                }
+                _context.Events.Remove(eventToRemove);
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
