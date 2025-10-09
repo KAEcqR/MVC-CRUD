@@ -1,6 +1,8 @@
 ﻿@model Event
-<h3 class="text-center">Add new event</h3>
-<form asp-action="AddEvent" method="post" enctype="multipart/form-data">
+<h3 class="text-center">change event</h3>
+<form asp-action="EditEvent" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+@Html.ValidationSummary(true, "", new { @class = "text-danger" })
     <div class="row m-2">
         <label asp-for="Title" class="col-3 text-end"></label>
         <input asp-for="Title" class="col-6"/>
@@ -29,6 +31,6 @@
         <span class="text-danger col-3"></span>
     </div>
     <div class="row m-2">
-        <input type="submit" value="Save" class="col-6 offset-3 btn btn-primary" />
+        <input type="submit" value="Save changes" class="col-6 offset-3 btn btn-primary" />
    </div>
 </form>

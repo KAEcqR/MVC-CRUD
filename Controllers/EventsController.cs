@@ -27,6 +27,8 @@ namespace MVC_CRUD.Controllers
         [HttpGet]
         public IActionResult AddEvent()
         {
+            var venues = _context.Venues.ToList();
+            ViewBag.Venues = venues;
             return View();
         }
 
@@ -62,12 +64,12 @@ namespace MVC_CRUD.Controllers
         [HttpGet]
         public IActionResult RemoveEvent(int Id)
         {
-                var eventToRemove = _context.Events.Find(Id);
-                if (eventToRemove == null)
-                {
-                    return NotFound();
-                }
-                _context.Events.Remove(eventToRemove);
+            var eventToRemove = _context.Events.Find(Id);
+            if (eventToRemove == null)
+            {
+                return NotFound();
+            }
+            _context.Events.Remove(eventToRemove);
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
@@ -77,5 +79,59 @@ namespace MVC_CRUD.Controllers
         {
             return View();
         }
+        
+        [HttpGet]
+        public IActionResult EditEvent(int id)
+        {
+            //znajduje studenta o podanym id
+            var student = _context.Events.Find(id);
+            var venues = _context.Venues.ToList();
+            ViewBag.Venues = venues;
+            if (student != null)
+            {
+                return View(student);
+            }
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> EditEvent(Event ev, IFormFile ImageFile)
+        {
+            if (ModelState.IsValid)
+            {
+                if (ImageFile != null && ImageFile.Length > 0)
+                {
+                    var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/events");
+                    Directory.CreateDirectory(uploadsFolder); // Ensure folder exists
+
+                    var uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(ImageFile.FileName);
+                    var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await ImageFile.CopyToAsync(stream);
+                    }
+
+                    ev.ImagePath = uniqueFileName;
+                }
+                else
+                {
+                    // No new image uploaded, keep previous image
+                    var existingEvent = _context.Events.AsNoTracking().FirstOrDefault(e => e.Id == ev.Id);
+                    if (existingEvent != null)
+                    {
+                        ev.ImagePath = existingEvent.ImagePath; // keep the existing image path
+                        Console.WriteLine("No new image uploaded, previous image is used.");
+                    }
+                }
+
+                _context.Events.Update(ev);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+            ViewBag.Venues = _context.Venues.ToList();
+            return View(ev);
+        }
+
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uLOE5qYmthbH1rmfoj1OnIUm9S2P6yTYr/ybuYBdA0g=",
+  "Hash": "wujVBOwrqM6bwSluXJj6C+NzDb9C0mX3y8voKRktwHg=",
   "Source": "MVC-CRUD",
   "BasePath": "_content/MVC-CRUD",
   "Mode": "Default",
@@ -101,6 +101,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\24bb13e2-b272-44ea-81e4-6ced61d12691.png",
+      "SourceId": "MVC-CRUD",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github\\MVC-CRUD\\wwwroot\\",
+      "BasePath": "_content/MVC-CRUD",
+      "RelativePath": "images/events/24bb13e2-b272-44ea-81e4-6ced61d12691#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lytlb8uqvd",
+      "Integrity": "7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\events\\24bb13e2-b272-44ea-81e4-6ced61d12691.png"
+    },
+    {
       "Identity": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\43d8a1da-3c16-4fc5-9d7d-54d903dc85aa.png",
       "SourceId": "MVC-CRUD",
       "SourceType": "Discovered",
@@ -120,6 +141,111 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\events\\43d8a1da-3c16-4fc5-9d7d-54d903dc85aa.png"
+    },
+    {
+      "Identity": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\44790ca9-28e2-426e-a8ad-1655edb12b86.png",
+      "SourceId": "MVC-CRUD",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github\\MVC-CRUD\\wwwroot\\",
+      "BasePath": "_content/MVC-CRUD",
+      "RelativePath": "images/events/44790ca9-28e2-426e-a8ad-1655edb12b86#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lytlb8uqvd",
+      "Integrity": "7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\events\\44790ca9-28e2-426e-a8ad-1655edb12b86.png"
+    },
+    {
+      "Identity": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\454fda34-847d-4863-9714-5e5eb1f42a53.png",
+      "SourceId": "MVC-CRUD",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github\\MVC-CRUD\\wwwroot\\",
+      "BasePath": "_content/MVC-CRUD",
+      "RelativePath": "images/events/454fda34-847d-4863-9714-5e5eb1f42a53#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lytlb8uqvd",
+      "Integrity": "7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\events\\454fda34-847d-4863-9714-5e5eb1f42a53.png"
+    },
+    {
+      "Identity": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\9840b972-3752-4d67-a24c-9ace94add0e5.png",
+      "SourceId": "MVC-CRUD",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github\\MVC-CRUD\\wwwroot\\",
+      "BasePath": "_content/MVC-CRUD",
+      "RelativePath": "images/events/9840b972-3752-4d67-a24c-9ace94add0e5#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lytlb8uqvd",
+      "Integrity": "7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\events\\9840b972-3752-4d67-a24c-9ace94add0e5.png"
+    },
+    {
+      "Identity": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\ac862a3d-3206-4be4-9e13-6e9ce0bd5a60.png",
+      "SourceId": "MVC-CRUD",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github\\MVC-CRUD\\wwwroot\\",
+      "BasePath": "_content/MVC-CRUD",
+      "RelativePath": "images/events/ac862a3d-3206-4be4-9e13-6e9ce0bd5a60#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qdlg5ub8h4",
+      "Integrity": "Pt0jwuQVzgE/m/C4ABEU8j4SUZcWOBDHBcA1luTI9+g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\events\\ac862a3d-3206-4be4-9e13-6e9ce0bd5a60.png"
+    },
+    {
+      "Identity": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\bb076b13-0fb1-4749-aa15-eda79bf41b13.png",
+      "SourceId": "MVC-CRUD",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github\\MVC-CRUD\\wwwroot\\",
+      "BasePath": "_content/MVC-CRUD",
+      "RelativePath": "images/events/bb076b13-0fb1-4749-aa15-eda79bf41b13#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qdlg5ub8h4",
+      "Integrity": "Pt0jwuQVzgE/m/C4ABEU8j4SUZcWOBDHBcA1luTI9+g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\events\\bb076b13-0fb1-4749-aa15-eda79bf41b13.png"
     },
     {
       "Identity": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\musicfest.jpg",
@@ -1527,6 +1653,88 @@
       ]
     },
     {
+      "Route": "images/events/24bb13e2-b272-44ea-81e4-6ced61d12691.lytlb8uqvd.png",
+      "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\24bb13e2-b272-44ea-81e4-6ced61d12691.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Oct 2025 17:49:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lytlb8uqvd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/events/24bb13e2-b272-44ea-81e4-6ced61d12691.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/24bb13e2-b272-44ea-81e4-6ced61d12691.png",
+      "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\24bb13e2-b272-44ea-81e4-6ced61d12691.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Oct 2025 17:49:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU="
+        }
+      ]
+    },
+    {
       "Route": "images/events/43d8a1da-3c16-4fc5-9d7d-54d903dc85aa.png",
       "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\43d8a1da-3c16-4fc5-9d7d-54d903dc85aa.png",
       "Selectors": [],
@@ -1601,6 +1809,416 @@
         {
           "Name": "label",
           "Value": "images/events/43d8a1da-3c16-4fc5-9d7d-54d903dc85aa.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pt0jwuQVzgE/m/C4ABEU8j4SUZcWOBDHBcA1luTI9+g="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/44790ca9-28e2-426e-a8ad-1655edb12b86.lytlb8uqvd.png",
+      "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\44790ca9-28e2-426e-a8ad-1655edb12b86.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Oct 2025 17:32:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lytlb8uqvd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/events/44790ca9-28e2-426e-a8ad-1655edb12b86.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/44790ca9-28e2-426e-a8ad-1655edb12b86.png",
+      "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\44790ca9-28e2-426e-a8ad-1655edb12b86.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Oct 2025 17:32:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/454fda34-847d-4863-9714-5e5eb1f42a53.lytlb8uqvd.png",
+      "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\454fda34-847d-4863-9714-5e5eb1f42a53.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Oct 2025 17:51:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lytlb8uqvd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/events/454fda34-847d-4863-9714-5e5eb1f42a53.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/454fda34-847d-4863-9714-5e5eb1f42a53.png",
+      "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\454fda34-847d-4863-9714-5e5eb1f42a53.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Oct 2025 17:51:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/9840b972-3752-4d67-a24c-9ace94add0e5.lytlb8uqvd.png",
+      "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\9840b972-3752-4d67-a24c-9ace94add0e5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Oct 2025 17:49:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lytlb8uqvd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/events/9840b972-3752-4d67-a24c-9ace94add0e5.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/9840b972-3752-4d67-a24c-9ace94add0e5.png",
+      "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\9840b972-3752-4d67-a24c-9ace94add0e5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Oct 2025 17:49:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/ac862a3d-3206-4be4-9e13-6e9ce0bd5a60.png",
+      "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\ac862a3d-3206-4be4-9e13-6e9ce0bd5a60.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1938397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pt0jwuQVzgE/m/C4ABEU8j4SUZcWOBDHBcA1luTI9+g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Oct 2025 17:32:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pt0jwuQVzgE/m/C4ABEU8j4SUZcWOBDHBcA1luTI9+g="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/ac862a3d-3206-4be4-9e13-6e9ce0bd5a60.qdlg5ub8h4.png",
+      "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\ac862a3d-3206-4be4-9e13-6e9ce0bd5a60.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1938397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pt0jwuQVzgE/m/C4ABEU8j4SUZcWOBDHBcA1luTI9+g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Oct 2025 17:32:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qdlg5ub8h4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/events/ac862a3d-3206-4be4-9e13-6e9ce0bd5a60.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pt0jwuQVzgE/m/C4ABEU8j4SUZcWOBDHBcA1luTI9+g="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/bb076b13-0fb1-4749-aa15-eda79bf41b13.png",
+      "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\bb076b13-0fb1-4749-aa15-eda79bf41b13.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1938397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pt0jwuQVzgE/m/C4ABEU8j4SUZcWOBDHBcA1luTI9+g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Oct 2025 16:49:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pt0jwuQVzgE/m/C4ABEU8j4SUZcWOBDHBcA1luTI9+g="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/bb076b13-0fb1-4749-aa15-eda79bf41b13.qdlg5ub8h4.png",
+      "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\bb076b13-0fb1-4749-aa15-eda79bf41b13.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1938397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pt0jwuQVzgE/m/C4ABEU8j4SUZcWOBDHBcA1luTI9+g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Oct 2025 16:49:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qdlg5ub8h4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/events/bb076b13-0fb1-4749-aa15-eda79bf41b13.png"
         },
         {
           "Name": "integrity",
