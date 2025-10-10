@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVC-CRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1b6482ba0f0aa03d5e732a3c2e1aa2cd5111f3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e11336865f05c0a0fb05d66b1e4ebb4e33861019")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVC-CRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVC-CRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

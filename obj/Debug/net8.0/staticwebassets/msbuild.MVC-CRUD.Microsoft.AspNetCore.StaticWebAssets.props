@@ -36,6 +36,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\0d7739bb-91e6-46b6-bd1e-ce6144cb4165.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC-CRUD</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC-CRUD</BasePath>
+      <RelativePath>images/events/0d7739bb-91e6-46b6-bd1e-ce6144cb4165.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qdlg5ub8h4</Fingerprint>
+      <Integrity>Pt0jwuQVzgE/m/C4ABEU8j4SUZcWOBDHBcA1luTI9+g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\0d7739bb-91e6-46b6-bd1e-ce6144cb4165.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\24bb13e2-b272-44ea-81e4-6ced61d12691.png'))">
       <SourceType>Package</SourceType>
       <SourceId>MVC-CRUD</SourceId>
@@ -108,6 +126,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\454fda34-847d-4863-9714-5e5eb1f42a53.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\6e45d271-ccb3-4c7c-9bd0-d311dc32fb0f.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC-CRUD</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC-CRUD</BasePath>
+      <RelativePath>images/events/6e45d271-ccb3-4c7c-9bd0-d311dc32fb0f.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>lytlb8uqvd</Fingerprint>
+      <Integrity>7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\6e45d271-ccb3-4c7c-9bd0-d311dc32fb0f.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\8310d900-6ba7-4f84-b113-4521c3564e66.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC-CRUD</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC-CRUD</BasePath>
+      <RelativePath>images/events/8310d900-6ba7-4f84-b113-4521c3564e66.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>lytlb8uqvd</Fingerprint>
+      <Integrity>7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\8310d900-6ba7-4f84-b113-4521c3564e66.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\9840b972-3752-4d67-a24c-9ace94add0e5.png'))">
       <SourceType>Package</SourceType>
       <SourceId>MVC-CRUD</SourceId>
@@ -125,6 +179,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\9840b972-3752-4d67-a24c-9ace94add0e5.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\a1088261-3ae6-4c55-8897-057a58f15e35.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC-CRUD</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC-CRUD</BasePath>
+      <RelativePath>images/events/a1088261-3ae6-4c55-8897-057a58f15e35.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>lytlb8uqvd</Fingerprint>
+      <Integrity>7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\a1088261-3ae6-4c55-8897-057a58f15e35.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\ac862a3d-3206-4be4-9e13-6e9ce0bd5a60.png'))">
       <SourceType>Package</SourceType>

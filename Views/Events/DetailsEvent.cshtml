@@ -1,0 +1,26 @@
+﻿@model MVC_CRUD.Models.Event
+
+<div class="container mt-4">
+    <div class="row">
+        <!-- Event Info (Left) -->
+        <div class="col-md-8">
+            <div class="card">
+                <img src="~/images/events/@Model.ImagePath" class="card-img-top" alt="@Model.Title" />
+                <div class="card-body">
+                    <h3 class="card-title">@Model.Title</h3>
+                    <p><strong>Artist:</strong> @Model.Artist</p>
+                    <p><strong>Date:</strong> @Model.Date.ToString("dd.MM.yyyy")</p>
+                    <p><strong>Venue:</strong> @Model.Venue?.Name</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 d-flex align-items-start">
+            <div class="w-100">
+                <div class="mb-3">
+                    <span class="text-muted">Actions will appear here</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

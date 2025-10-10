@@ -133,5 +133,25 @@ namespace MVC_CRUD.Controllers
             return View(ev);
         }
 
+        [HttpGet]
+        public IActionResult DetailsEvent(int id)
+        {
+            var evt = _context.Events
+                .FirstOrDefault(e => e.Id == id);
+
+            if (evt == null)
+            {
+                return NotFound();
+            }
+
+            return View(evt);
+        }
+
+        [HttpPost]
+        public IActionResult EventDetails()
+        {
+            return View();
+        }
+
     }
 }
