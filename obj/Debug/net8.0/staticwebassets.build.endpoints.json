@@ -1151,6 +1151,88 @@
       ]
     },
     {
+      "Route": "images/events/e5c76195-16c1-4eb2-9f93-0a1d288dee2b.png",
+      "AssetFile": "images/events/e5c76195-16c1-4eb2-9f93-0a1d288dee2b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36412"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Oct 2025 21:17:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/e5c76195-16c1-4eb2-9f93-0a1d288dee2b.x76fxc0jsh.png",
+      "AssetFile": "images/events/e5c76195-16c1-4eb2-9f93-0a1d288dee2b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36412"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Oct 2025 21:17:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x76fxc0jsh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ="
+        },
+        {
+          "Name": "label",
+          "Value": "images/events/e5c76195-16c1-4eb2-9f93-0a1d288dee2b.png"
+        }
+      ]
+    },
+    {
       "Route": "images/events/musicfest.jpg",
       "AssetFile": "images/events/musicfest.jpg",
       "Selectors": [],

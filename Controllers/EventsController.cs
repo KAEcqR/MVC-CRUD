@@ -137,6 +137,7 @@ namespace MVC_CRUD.Controllers
         public IActionResult DetailsEvent(int id)
         {
             var evt = _context.Events
+                .Include(e => e.Venue)
                 .FirstOrDefault(e => e.Id == id);
 
             if (evt == null)

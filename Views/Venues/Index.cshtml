@@ -1,0 +1,35 @@
+﻿@model IEnumerable<MVC_CRUD.Models.Venue>
+@using MVC_CRUD.Models
+@{
+}
+
+<div class="container">
+    <a class="btn btn-primary my-3" asp-action="AddVenue">Add Venue</a>
+    <div class="row">
+        @foreach (var Venue in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">@Venue.Name</h5>
+                        <p class="card-text">
+                            <strong>Location:</strong> @Venue.Location<br/>
+                            <strong>Capacity:</strong> @Venue.Capacity<br/>
+                            <strong>Description: </strong> @Venue.Description<br/>
+                            <strong>Incoming Events: </strong>
+                            <ul>
+                                @foreach (var evt in Venue.Events ?? Enumerable.Empty<Event>())
+                                {
+                                    <li>@evt.Title - @evt.Date.ToString("dd.MM.yyyy")</li>
+                                }
+                            </ul>
+                        </p>
+                        
+                        <a class="btn btn-danger" asp-action="RemoveVenue" asp-route-Id="@Venue.Id">Remove</a>
+                        <a class="btn btn-secondary" asp-action="EditVenue" asp-route-Id="@Venue.Id">Edit</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

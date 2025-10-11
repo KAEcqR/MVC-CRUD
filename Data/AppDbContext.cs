@@ -31,9 +31,9 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 
     // Venues
     modelBuilder.Entity<Venue>().HasData(
-        new Venue { Id = 1, Name = "Grand Hall", Location = "Downtown" },
-        new Venue { Id = 2, Name = "Open Arena", Location = "Uptown" },
-        new Venue { Id = 3, Name = "Conference Center", Location = "Midtown" }
+        new Venue { Id = 1, Name = "Grand Hall", Location = "Downtown", Capacity = 500, Description = "A large venue for concerts and events."},
+        new Venue { Id = 2, Name = "Open Arena", Location = "Uptown", Capacity = 1000, Description = "An outdoor arena for sports and large gatherings."}, 
+        new Venue { Id = 3, Name = "Conference Center", Location = "Midtown", Capacity = 300, Description = "A modern venue for conferences and meetings."}
     );
 
     // Events
