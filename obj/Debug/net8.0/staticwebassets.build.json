@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BCbOG1Z/X1JyF6HFJXHFBKT5Mlbv+fVZLf8eO0kk3jk=",
+  "Hash": "K7wXHOqKXESHX4A/+ZVvvJwV1cATURlaUQ9Qov8VBVA=",
   "Source": "MVC-CRUD",
   "BasePath": "_content/MVC-CRUD",
   "Mode": "Default",
@@ -141,6 +141,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\events\\24bb13e2-b272-44ea-81e4-6ced61d12691.png"
+    },
+    {
+      "Identity": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\31f67f1c-b471-4f46-9f78-d693b9b143e1.png",
+      "SourceId": "MVC-CRUD",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github\\MVC-CRUD\\wwwroot\\",
+      "BasePath": "_content/MVC-CRUD",
+      "RelativePath": "images/events/31f67f1c-b471-4f46-9f78-d693b9b143e1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x76fxc0jsh",
+      "Integrity": "Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\events\\31f67f1c-b471-4f46-9f78-d693b9b143e1.png"
+    },
+    {
+      "Identity": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\3afd0ef4-90e9-4a7b-88b1-d9b37a7c1cbf.png",
+      "SourceId": "MVC-CRUD",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github\\MVC-CRUD\\wwwroot\\",
+      "BasePath": "_content/MVC-CRUD",
+      "RelativePath": "images/events/3afd0ef4-90e9-4a7b-88b1-d9b37a7c1cbf#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x76fxc0jsh",
+      "Integrity": "Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\events\\3afd0ef4-90e9-4a7b-88b1-d9b37a7c1cbf.png"
     },
     {
       "Identity": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\43d8a1da-3c16-4fc5-9d7d-54d903dc85aa.png",
@@ -288,6 +330,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\events\\a1088261-3ae6-4c55-8897-057a58f15e35.png"
+    },
+    {
+      "Identity": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\a60ba5c5-0ea2-46a8-83b7-cb027f4e33b2.png",
+      "SourceId": "MVC-CRUD",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github\\MVC-CRUD\\wwwroot\\",
+      "BasePath": "_content/MVC-CRUD",
+      "RelativePath": "images/events/a60ba5c5-0ea2-46a8-83b7-cb027f4e33b2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x76fxc0jsh",
+      "Integrity": "Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\events\\a60ba5c5-0ea2-46a8-83b7-cb027f4e33b2.png"
     },
     {
       "Identity": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\ac862a3d-3206-4be4-9e13-6e9ce0bd5a60.png",
@@ -1922,6 +1985,170 @@
       ]
     },
     {
+      "Route": "images/events/31f67f1c-b471-4f46-9f78-d693b9b143e1.png",
+      "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\31f67f1c-b471-4f46-9f78-d693b9b143e1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36412"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 11 Oct 2025 21:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/31f67f1c-b471-4f46-9f78-d693b9b143e1.x76fxc0jsh.png",
+      "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\31f67f1c-b471-4f46-9f78-d693b9b143e1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36412"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 11 Oct 2025 21:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x76fxc0jsh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/events/31f67f1c-b471-4f46-9f78-d693b9b143e1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/3afd0ef4-90e9-4a7b-88b1-d9b37a7c1cbf.png",
+      "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\3afd0ef4-90e9-4a7b-88b1-d9b37a7c1cbf.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36412"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 11 Oct 2025 21:13:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/3afd0ef4-90e9-4a7b-88b1-d9b37a7c1cbf.x76fxc0jsh.png",
+      "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\3afd0ef4-90e9-4a7b-88b1-d9b37a7c1cbf.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36412"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 11 Oct 2025 21:13:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x76fxc0jsh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/events/3afd0ef4-90e9-4a7b-88b1-d9b37a7c1cbf.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ="
+        }
+      ]
+    },
+    {
       "Route": "images/events/43d8a1da-3c16-4fc5-9d7d-54d903dc85aa.png",
       "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\43d8a1da-3c16-4fc5-9d7d-54d903dc85aa.png",
       "Selectors": [],
@@ -2492,6 +2719,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/a60ba5c5-0ea2-46a8-83b7-cb027f4e33b2.png",
+      "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\a60ba5c5-0ea2-46a8-83b7-cb027f4e33b2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36412"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 11 Oct 2025 19:33:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/a60ba5c5-0ea2-46a8-83b7-cb027f4e33b2.x76fxc0jsh.png",
+      "AssetFile": "C:\\Github\\MVC-CRUD\\wwwroot\\images\\events\\a60ba5c5-0ea2-46a8-83b7-cb027f4e33b2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36412"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 11 Oct 2025 19:33:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x76fxc0jsh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/events/a60ba5c5-0ea2-46a8-83b7-cb027f4e33b2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ="
         }
       ]
     },

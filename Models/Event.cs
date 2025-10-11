@@ -16,4 +16,8 @@ public class Event
     public int VenueId { get; set; }
     public Venue? Venue { get; set; }
     public string? ImagePath { get; set; }
+    [Required(ErrorMessage = "How many tickets are available?")]
+    public int TotalTickets { get; set; }
+    public int TicketsLeft { get; set; }
+    public DateOnly CreationDate { get; set; } = DateOnly.FromDateTime(DateTime.Now);
 }

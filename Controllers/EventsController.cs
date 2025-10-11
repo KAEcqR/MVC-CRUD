@@ -36,12 +36,14 @@ namespace MVC_CRUD.Controllers
         public async Task<IActionResult> AddEvent(Event evt, IFormFile ImageFile)
         {
             Console.WriteLine(ImageFile);
+            evt.TicketsLeft = evt.TotalTickets;
+            evt.CreationDate = DateOnly.FromDateTime(DateTime.Now);
             if (ModelState.IsValid)
             {
                 if (ImageFile != null && ImageFile.Length > 0)
                 {
                     var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/events");
-                    Directory.CreateDirectory(uploadsFolder); // Ensure folder exists
+                    Directory.CreateDirectory(uploadsFolder);
 
                     var uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(ImageFile.FileName);
                     var filePath = Path.Combine(uploadsFolder, uniqueFileName);
@@ -58,19 +60,29 @@ namespace MVC_CRUD.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
+            // FIX: Set ViewBag.Venues before returning the view
+            ViewBag.Venues = _context.Venues.ToList();
             return View(evt);
         }
 
         [HttpGet]
         public IActionResult RemoveEvent(int Id)
         {
-            var eventToRemove = _context.Events.Find(Id);
-            if (eventToRemove == null)
+            var ev = _context.Events.Find(Id);
+            if (ev == null || ev.ImagePath == null)
             {
                 return NotFound();
             }
-            _context.Events.Remove(eventToRemove);
+            _context.Events.Remove(ev);
             _context.SaveChanges();
+            
+            var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/events", ev.ImagePath);
+            
+            if (System.IO.File.Exists(imagePath))
+            {
+                System.IO.File.Delete(imagePath);
+            }
+
             return RedirectToAction("Index");
         }
 
@@ -83,13 +95,12 @@ namespace MVC_CRUD.Controllers
         [HttpGet]
         public IActionResult EditEvent(int id)
         {
-            //znajduje studenta o podanym id
-            var student = _context.Events.Find(id);
+            var ev = _context.Events.Find(id);
             var venues = _context.Venues.ToList();
             ViewBag.Venues = venues;
-            if (student != null)
+            if (ev != null)
             {
-                return View(student);
+                return View(ev);
             }
             return RedirectToAction("Index");
         }

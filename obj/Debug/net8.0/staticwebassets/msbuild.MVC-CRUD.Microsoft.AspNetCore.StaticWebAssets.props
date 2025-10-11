@@ -72,6 +72,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\24bb13e2-b272-44ea-81e4-6ced61d12691.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\31f67f1c-b471-4f46-9f78-d693b9b143e1.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC-CRUD</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC-CRUD</BasePath>
+      <RelativePath>images/events/31f67f1c-b471-4f46-9f78-d693b9b143e1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>x76fxc0jsh</Fingerprint>
+      <Integrity>Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\31f67f1c-b471-4f46-9f78-d693b9b143e1.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\3afd0ef4-90e9-4a7b-88b1-d9b37a7c1cbf.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC-CRUD</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC-CRUD</BasePath>
+      <RelativePath>images/events/3afd0ef4-90e9-4a7b-88b1-d9b37a7c1cbf.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>x76fxc0jsh</Fingerprint>
+      <Integrity>Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\3afd0ef4-90e9-4a7b-88b1-d9b37a7c1cbf.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\43d8a1da-3c16-4fc5-9d7d-54d903dc85aa.png'))">
       <SourceType>Package</SourceType>
       <SourceId>MVC-CRUD</SourceId>
@@ -197,6 +233,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\a1088261-3ae6-4c55-8897-057a58f15e35.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\a60ba5c5-0ea2-46a8-83b7-cb027f4e33b2.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC-CRUD</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC-CRUD</BasePath>
+      <RelativePath>images/events/a60ba5c5-0ea2-46a8-83b7-cb027f4e33b2.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>x76fxc0jsh</Fingerprint>
+      <Integrity>Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\a60ba5c5-0ea2-46a8-83b7-cb027f4e33b2.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\ac862a3d-3206-4be4-9e13-6e9ce0bd5a60.png'))">
       <SourceType>Package</SourceType>

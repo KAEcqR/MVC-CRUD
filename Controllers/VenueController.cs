@@ -51,5 +51,28 @@ namespace MVC_CRUD.Controllers
             }
             return View(venue);
         }
+
+        [HttpGet]
+        public IActionResult EditVenue(int Id)
+        {
+            var venue = _context.Venues.Find(Id);
+            if (venue == null)
+            {
+                return NotFound();
+            }
+            return View(venue);
+        }
+
+        [HttpPost]
+        public IActionResult EditVenue(Venue venue)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Venues.Update(venue);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(venue);
+        }
     }
 }

@@ -38,9 +38,9 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 
     // Events
     modelBuilder.Entity<Event>().HasData(
-        new Event { Id = 1, Title = "Music Fest", Artist = "Jane Doe", Date = new DateOnly(2023, 8, 1), VenueId = 1, ImagePath = "musicfest.jpg" },
-        new Event { Id = 2, Title = "Tech Expo", Artist = "John Smith", Date = new DateOnly(2024, 5, 15), VenueId = 2, ImagePath = "musicfest.jpg"},
-        new Event { Id = 3, Title = "Art Show", Artist = "Alice Lee", Date = new DateOnly(2025, 11, 20) , VenueId = 3, ImagePath = "musicfest.jpg" }
+        new Event { Id = 1, Title = "Music Fest", Artist = "Jane Doe", Date = new DateOnly(2023, 8, 1), VenueId = 1, ImagePath = "musicfest.jpg", TotalTickets = 500, TicketsLeft = 500},
+        new Event { Id = 2, Title = "Tech Expo", Artist = "John Smith", Date = new DateOnly(2024, 5, 15), VenueId = 2, ImagePath = "musicfest.jpg", TotalTickets = 1000, TicketsLeft = 1000},
+        new Event { Id = 3, Title = "Art Show", Artist = "Alice Lee", Date = new DateOnly(2025, 11, 20) , VenueId = 3, ImagePath = "musicfest.jpg", TotalTickets = 300, TicketsLeft = 300}
     );
 
     // Users

@@ -16,7 +16,8 @@
                         <h5 class="card-title">@Event.Title</h5>
                         <p class="card-text">
                             <strong>Date:</strong> @Event.Date.ToString("dd.MM.yyyy")<br />
-                            <strong>Artist:</strong> @Event.Artist
+                            <strong>Artist:</strong> @Event.Artist<br />
+                            <strong>Tickets Available:</strong> @Event.TicketsLeft / @Event.TotalTickets
                         </p>
                         <a asp-action="DetailsEvent" asp-controller="Events" asp-route-id="@Event.Id" class="btn btn-primary">View Details</a>
                     </div>

@@ -3,6 +3,7 @@ using System;
 using MVC_CRUD.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MVC_CRUD.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251011200722_MGx06")]
+    partial class MGx06
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -29,18 +32,11 @@ namespace MVC_CRUD.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<DateOnly>("CreationDate")
-                        .HasColumnType("date");
-
                     b.Property<DateOnly>("Date")
                         .HasColumnType("date");
 
                     b.Property<string>("ImagePath")
-                        .IsRequired()
                         .HasColumnType("longtext");
-
-                    b.Property<int>("TicketsLeft")
-                        .HasColumnType("int");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -63,10 +59,8 @@ namespace MVC_CRUD.Migrations
                         {
                             Id = 1,
                             Artist = "Jane Doe",
-                            CreationDate = new DateOnly(2025, 10, 11),
                             Date = new DateOnly(2023, 8, 1),
                             ImagePath = "musicfest.jpg",
-                            TicketsLeft = 500,
                             Title = "Music Fest",
                             TotalTickets = 500,
                             VenueId = 1
@@ -75,10 +69,8 @@ namespace MVC_CRUD.Migrations
                         {
                             Id = 2,
                             Artist = "John Smith",
-                            CreationDate = new DateOnly(2025, 10, 11),
                             Date = new DateOnly(2024, 5, 15),
                             ImagePath = "musicfest.jpg",
-                            TicketsLeft = 1000,
                             Title = "Tech Expo",
                             TotalTickets = 1000,
                             VenueId = 2
@@ -87,10 +79,8 @@ namespace MVC_CRUD.Migrations
                         {
                             Id = 3,
                             Artist = "Alice Lee",
-                            CreationDate = new DateOnly(2025, 10, 11),
                             Date = new DateOnly(2025, 11, 20),
                             ImagePath = "musicfest.jpg",
-                            TicketsLeft = 300,
                             Title = "Art Show",
                             TotalTickets = 300,
                             VenueId = 3

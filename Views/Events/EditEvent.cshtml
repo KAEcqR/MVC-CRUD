@@ -25,6 +25,16 @@
         </select>
         <span asp-validation-for="VenueId" class="text-danger col-3"></span>
     </div>
+        <div class="row m-2">
+        <label asp-for="TotalTickets" class="col-3 text-end"></label>
+        <input asp-for="TotalTickets" type="number" class="col-6" />
+        <span asp-validation-for="TotalTickets" class="text-danger col-3"></span>
+    </div>
+        <div class="row m-2">
+        <label asp-for="TicketsLeft" class="col-3 text-end"></label>
+        <input asp-for="TicketsLeft" type="number" class="col-6" />
+        <span asp-validation-for="TicketsLeft" class="text-danger col-3"></span>
+    </div>
     <div class="row m-2">
         <label class="col-3 text-end">Event Image</label>
         <input type="file" name="ImageFile" class="col-6" />
