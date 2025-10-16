@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Github\\MVC-CRUD\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{725E6137-D402-40B9-92F9-79A3A0C00D6A}|MVC-CRUD.csproj|c:\\github\\mvc-crud\\mvc-crud.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{725E6137-D402-40B9-92F9-79A3A0C00D6A}|MVC-CRUD.csproj|solutionrelative:mvc-crud.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MVC-CRUD.csproj",
+              "DocumentMoniker": "C:\\Github\\MVC-CRUD\\MVC-CRUD.csproj",
+              "RelativeDocumentMoniker": "MVC-CRUD.csproj",
+              "ToolTip": "C:\\Github\\MVC-CRUD\\MVC-CRUD.csproj",
+              "RelativeToolTip": "MVC-CRUD.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-16T20:03:26.423Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
