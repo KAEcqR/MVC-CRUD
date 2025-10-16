@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MVC_CRUD.Data;
@@ -22,6 +23,7 @@ namespace MVC_CRUD.Controllers
             return View(venues);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult RemoveVenue(int Id)
         {
@@ -34,12 +36,14 @@ namespace MVC_CRUD.Controllers
             return RedirectToAction("Index");
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult AddVenue()
         {
             return View();
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public IActionResult AddVenue(Venue venue)
         {
@@ -52,6 +56,7 @@ namespace MVC_CRUD.Controllers
             return View(venue);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult EditVenue(int Id)
         {
@@ -63,6 +68,7 @@ namespace MVC_CRUD.Controllers
             return View(venue);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public IActionResult EditVenue(Venue venue)
         {

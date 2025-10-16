@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MVC_CRUD.Data;
@@ -24,6 +25,7 @@ namespace MVC_CRUD.Controllers
         }
 
 
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult AddEvent()
         {
@@ -32,6 +34,7 @@ namespace MVC_CRUD.Controllers
             return View();
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<IActionResult> AddEvent(Event evt, IFormFile ImageFile)
         {
@@ -65,6 +68,7 @@ namespace MVC_CRUD.Controllers
             return View(evt);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult RemoveEvent(int Id)
         {
@@ -75,9 +79,9 @@ namespace MVC_CRUD.Controllers
             }
             _context.Events.Remove(ev);
             _context.SaveChanges();
-            
+
             var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/events", ev.ImagePath);
-            
+
             if (System.IO.File.Exists(imagePath))
             {
                 System.IO.File.Delete(imagePath);
@@ -86,12 +90,14 @@ namespace MVC_CRUD.Controllers
             return RedirectToAction("Index");
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public IActionResult RemoveEvent()
         {
             return View();
         }
-        
+
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult EditEvent(int id)
         {
@@ -105,6 +111,7 @@ namespace MVC_CRUD.Controllers
             return RedirectToAction("Index");
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<IActionResult> EditEvent(Event ev, IFormFile ImageFile)
         {
