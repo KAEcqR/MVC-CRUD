@@ -36,48 +36,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\0d7739bb-91e6-46b6-bd1e-ce6144cb4165.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\1e269e77-1f61-469b-8596-7b05a820c3f9.png'))">
       <SourceType>Package</SourceType>
       <SourceId>MVC-CRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MVC-CRUD</BasePath>
-      <RelativePath>images/events/0d7739bb-91e6-46b6-bd1e-ce6144cb4165.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qdlg5ub8h4</Fingerprint>
-      <Integrity>Pt0jwuQVzgE/m/C4ABEU8j4SUZcWOBDHBcA1luTI9+g=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\0d7739bb-91e6-46b6-bd1e-ce6144cb4165.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\24bb13e2-b272-44ea-81e4-6ced61d12691.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>MVC-CRUD</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MVC-CRUD</BasePath>
-      <RelativePath>images/events/24bb13e2-b272-44ea-81e4-6ced61d12691.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lytlb8uqvd</Fingerprint>
-      <Integrity>7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\24bb13e2-b272-44ea-81e4-6ced61d12691.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\31f67f1c-b471-4f46-9f78-d693b9b143e1.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>MVC-CRUD</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MVC-CRUD</BasePath>
-      <RelativePath>images/events/31f67f1c-b471-4f46-9f78-d693b9b143e1.png</RelativePath>
+      <RelativePath>images/events/1e269e77-1f61-469b-8596-7b05a820c3f9.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -88,50 +52,14 @@
       <Integrity>Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\31f67f1c-b471-4f46-9f78-d693b9b143e1.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\1e269e77-1f61-469b-8596-7b05a820c3f9.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\3afd0ef4-90e9-4a7b-88b1-d9b37a7c1cbf.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\f477f2f9-b951-428e-87db-d60eca17b0a2.png'))">
       <SourceType>Package</SourceType>
       <SourceId>MVC-CRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MVC-CRUD</BasePath>
-      <RelativePath>images/events/3afd0ef4-90e9-4a7b-88b1-d9b37a7c1cbf.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>x76fxc0jsh</Fingerprint>
-      <Integrity>Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\3afd0ef4-90e9-4a7b-88b1-d9b37a7c1cbf.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\43d8a1da-3c16-4fc5-9d7d-54d903dc85aa.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>MVC-CRUD</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MVC-CRUD</BasePath>
-      <RelativePath>images/events/43d8a1da-3c16-4fc5-9d7d-54d903dc85aa.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qdlg5ub8h4</Fingerprint>
-      <Integrity>Pt0jwuQVzgE/m/C4ABEU8j4SUZcWOBDHBcA1luTI9+g=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\43d8a1da-3c16-4fc5-9d7d-54d903dc85aa.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\44790ca9-28e2-426e-a8ad-1655edb12b86.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>MVC-CRUD</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MVC-CRUD</BasePath>
-      <RelativePath>images/events/44790ca9-28e2-426e-a8ad-1655edb12b86.png</RelativePath>
+      <RelativePath>images/events/f477f2f9-b951-428e-87db-d60eca17b0a2.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -142,169 +70,7 @@
       <Integrity>7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\44790ca9-28e2-426e-a8ad-1655edb12b86.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\454fda34-847d-4863-9714-5e5eb1f42a53.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>MVC-CRUD</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MVC-CRUD</BasePath>
-      <RelativePath>images/events/454fda34-847d-4863-9714-5e5eb1f42a53.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lytlb8uqvd</Fingerprint>
-      <Integrity>7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\454fda34-847d-4863-9714-5e5eb1f42a53.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\6e45d271-ccb3-4c7c-9bd0-d311dc32fb0f.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>MVC-CRUD</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MVC-CRUD</BasePath>
-      <RelativePath>images/events/6e45d271-ccb3-4c7c-9bd0-d311dc32fb0f.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lytlb8uqvd</Fingerprint>
-      <Integrity>7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\6e45d271-ccb3-4c7c-9bd0-d311dc32fb0f.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\8310d900-6ba7-4f84-b113-4521c3564e66.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>MVC-CRUD</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MVC-CRUD</BasePath>
-      <RelativePath>images/events/8310d900-6ba7-4f84-b113-4521c3564e66.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lytlb8uqvd</Fingerprint>
-      <Integrity>7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\8310d900-6ba7-4f84-b113-4521c3564e66.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\9840b972-3752-4d67-a24c-9ace94add0e5.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>MVC-CRUD</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MVC-CRUD</BasePath>
-      <RelativePath>images/events/9840b972-3752-4d67-a24c-9ace94add0e5.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lytlb8uqvd</Fingerprint>
-      <Integrity>7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\9840b972-3752-4d67-a24c-9ace94add0e5.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\a1088261-3ae6-4c55-8897-057a58f15e35.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>MVC-CRUD</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MVC-CRUD</BasePath>
-      <RelativePath>images/events/a1088261-3ae6-4c55-8897-057a58f15e35.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lytlb8uqvd</Fingerprint>
-      <Integrity>7fWn80VxrHwiQCyb3zYRirAVv4QICNPGLr4tEBziORU=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\a1088261-3ae6-4c55-8897-057a58f15e35.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\a60ba5c5-0ea2-46a8-83b7-cb027f4e33b2.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>MVC-CRUD</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MVC-CRUD</BasePath>
-      <RelativePath>images/events/a60ba5c5-0ea2-46a8-83b7-cb027f4e33b2.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>x76fxc0jsh</Fingerprint>
-      <Integrity>Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\a60ba5c5-0ea2-46a8-83b7-cb027f4e33b2.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\ac862a3d-3206-4be4-9e13-6e9ce0bd5a60.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>MVC-CRUD</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MVC-CRUD</BasePath>
-      <RelativePath>images/events/ac862a3d-3206-4be4-9e13-6e9ce0bd5a60.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qdlg5ub8h4</Fingerprint>
-      <Integrity>Pt0jwuQVzgE/m/C4ABEU8j4SUZcWOBDHBcA1luTI9+g=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\ac862a3d-3206-4be4-9e13-6e9ce0bd5a60.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\bb076b13-0fb1-4749-aa15-eda79bf41b13.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>MVC-CRUD</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MVC-CRUD</BasePath>
-      <RelativePath>images/events/bb076b13-0fb1-4749-aa15-eda79bf41b13.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qdlg5ub8h4</Fingerprint>
-      <Integrity>Pt0jwuQVzgE/m/C4ABEU8j4SUZcWOBDHBcA1luTI9+g=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\bb076b13-0fb1-4749-aa15-eda79bf41b13.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\e5c76195-16c1-4eb2-9f93-0a1d288dee2b.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>MVC-CRUD</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MVC-CRUD</BasePath>
-      <RelativePath>images/events/e5c76195-16c1-4eb2-9f93-0a1d288dee2b.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>x76fxc0jsh</Fingerprint>
-      <Integrity>Pf7mEf+TCLo2yXaWiHm6757dxaZco76dTilGVceqHdQ=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\e5c76195-16c1-4eb2-9f93-0a1d288dee2b.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\f477f2f9-b951-428e-87db-d60eca17b0a2.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\musicfest.jpg'))">
       <SourceType>Package</SourceType>

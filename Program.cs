@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using MVC_CRUD.Data;
+using MVC_CRUD.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,12 @@ var connString = builder.Configuration.GetConnectionString("MySql");
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(connString, ServerVersion.AutoDetect(connString))
 );
+
+builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
+{
+    options.SignIn.RequireConfirmedAccount = false;
+})
+.AddEntityFrameworkStores<AppDbContext>();
 
 // 🔹 Add MVC controllers + views
 builder.Services.AddControllersWithViews();
@@ -27,10 +34,13 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapRazorPages();
 
 app.Run();
