@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using MVC_CRUD.Data;
 using MVC_CRUD.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,7 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 .AddEntityFrameworkStores<AppDbContext>()
 .AddDefaultTokenProviders();
 
+builder.Services.AddSingleton<IEmailSender, NoOpEmailSender>();
 
 // 🔹 Add MVC controllers + views
 builder.Services.AddControllersWithViews();

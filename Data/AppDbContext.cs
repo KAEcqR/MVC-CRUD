@@ -42,12 +42,5 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
         new Event { Id = 2, Title = "Tech Expo", Artist = "John Smith", Date = new DateOnly(2024, 5, 15), VenueId = 2, ImagePath = "musicfest.jpg", TotalTickets = 1000, TicketsLeft = 1000},
         new Event { Id = 3, Title = "Art Show", Artist = "Alice Lee", Date = new DateOnly(2025, 11, 20) , VenueId = 3, ImagePath = "musicfest.jpg", TotalTickets = 300, TicketsLeft = 300}
     );
-
-    // Tickets
-    modelBuilder.Entity<Ticket>().HasData(
-        new Ticket { Id = 1, Price = 50, EventId = 1, UserId = 1 },
-        new Ticket { Id = 2, Price = 75.0, EventId = 2, UserId = 2 },
-        new Ticket { Id = 3, Price = 100.0, EventId = 3, UserId = 3 }
-    );
 }
 }
