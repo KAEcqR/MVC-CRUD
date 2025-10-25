@@ -2,4 +2,10 @@
     var evt = ViewBag.Event;
 }
 <h2>Buy Ticket</h2>
-<h3>Event name : @evt.Title</h3>
+<h3>Event name: @evt.Title</h3>
+
+<form asp-action="BuyTicketConfirmed" asp-route-id="@evt.Id" method="post">
+
+    <button type="submit" class="btn btn-primary">Confirm Purchase</button>
+    <a asp-controller="Events" asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

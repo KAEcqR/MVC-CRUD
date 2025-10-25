@@ -1,0 +1,23 @@
+﻿@model IEnumerable<MVC_CRUD.Models.Ticket>
+
+<h2>My Tickets</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Purchased</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var t in Model)
+        {
+            <tr>
+                <td>@t.Event.Title</td>
+                <td>@t.Event.Date.ToShortDateString()</td>
+                <td>@t.PurchaseDate.ToString("g")</td>
+            </tr>
+        }
+    </tbody>
+</table>
