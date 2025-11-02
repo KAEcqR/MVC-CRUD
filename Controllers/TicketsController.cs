@@ -45,13 +45,14 @@ namespace MVC_CRUD.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> BuyTicketConfirmed(int id)
         {
             var evt = await _context.Events.FindAsync(id);
             if (evt == null) return NotFound();
 
             var user = await _userManager.GetUserAsync(User);
-            if (user == null) return RedirectToAction("Login", "Account");
+            if (user == null) return Challenge();
 
             var ticket = new Ticket
             {
@@ -65,10 +66,11 @@ namespace MVC_CRUD.Controllers
             return RedirectToAction("MyTickets");
         }
 
+        [Authorize]
         public async Task<IActionResult> MyTickets()
         {
             var user = await _userManager.GetUserAsync(User);
-            if (user == null) return RedirectToAction("Login", "Account");
+            if (user == null) return Challenge();
 
             var tickets = await _context.Tickets
                 .Include(t => t.Event)
