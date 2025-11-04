@@ -79,6 +79,22 @@ namespace MVC_CRUD.Controllers
 
             return View(tickets);
         }
-        
+
+        [Authorize]
+        [HttpGet]
+        public async Task<IActionResult> TicketDetails(int id)
+        {
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null) return Challenge();
+
+            var tickets = await _context.Tickets
+                .Include(t => t.Event)
+                .FirstOrDefaultAsync(t => t.UserId == user.Id && t.Id == id);
+    
+
+            return View(tickets);
+        }
+
     }
+    
 }

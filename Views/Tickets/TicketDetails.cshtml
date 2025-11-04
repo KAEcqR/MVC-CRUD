@@ -1,3 +1,20 @@
-﻿@page
-@{
-}
+﻿@model MVC_CRUD.Models.Ticket
+
+<h2>My ticket for @Model.Event.Title</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Purchased</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.Event.Title</td>
+            <td>@Model.Event.Date.ToShortDateString()</td>
+            <td>@Model.PurchaseDate.ToString("g")</td>
+        </tr>
+    </tbody>
+</table>
