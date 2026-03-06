@@ -22,6 +22,7 @@ Entity Framework CLI
 - edit existing records
 - delete records
 - MVC architecture
+- account management using AspNetCore Identity 
 
 ## Screenshots
 
