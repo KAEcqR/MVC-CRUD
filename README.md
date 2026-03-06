@@ -25,7 +25,7 @@ Entity Framework CLI
 
 ## Screenshots
 
-![Application](screenshots/app.png)
+![Application](screenshots/application.png)
 
 ## How to run the project locally
 
