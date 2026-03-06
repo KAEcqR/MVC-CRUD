@@ -12,9 +12,9 @@ Entity Framework CLI
 - C#
 - ASP.NET MVC
 - .NET
-- SQL Database
+- MySQL Database
 - HTML / CSS
-- Entity Framework (if used)
+- Entity Framework Core
 
 ## Features
 - create new records
