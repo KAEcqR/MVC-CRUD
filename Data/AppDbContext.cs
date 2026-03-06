@@ -39,8 +39,15 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
     // Events
     modelBuilder.Entity<Event>().HasData(
         new Event { Id = 1, Title = "Music Fest", Artist = "Jane Doe", Date = new DateOnly(2023, 8, 1), VenueId = 1, ImagePath = "musicfest.jpg", TotalTickets = 500, TicketsLeft = 500},
-        new Event { Id = 2, Title = "Tech Expo", Artist = "John Smith", Date = new DateOnly(2024, 5, 15), VenueId = 2, ImagePath = "musicfest.jpg", TotalTickets = 1000, TicketsLeft = 1000},
-        new Event { Id = 3, Title = "Art Show", Artist = "Alice Lee", Date = new DateOnly(2025, 11, 20) , VenueId = 3, ImagePath = "musicfest.jpg", TotalTickets = 300, TicketsLeft = 300}
+        new Event { Id = 2, Title = "Tech Expo", Artist = "John Smith", Date = new DateOnly(2024, 5, 15), VenueId = 2, ImagePath = "techexpo.jpg", TotalTickets = 1000, TicketsLeft = 1000},
+        new Event { Id = 3, Title = "Art Show", Artist = "Alice Lee", Date = new DateOnly(2025, 11, 20), VenueId = 3, ImagePath = "artshow.jpg", TotalTickets = 300, TicketsLeft = 300},
+        new Event { Id = 4, Title = "Jazz Night", Artist = "Miles Davis Tribute", Date = new DateOnly(2026, 3, 15), VenueId = 1, ImagePath = "jazznight.jpg", TotalTickets = 400, TicketsLeft = 380},
+        new Event { Id = 5, Title = "Rock Concert", Artist = "The Rolling Stones Covers", Date = new DateOnly(2026, 4, 10), VenueId = 2, ImagePath = "rockconcert.jpg", TotalTickets = 800, TicketsLeft = 650},
+        new Event { Id = 6, Title = "Tech Conference 2026", Artist = "Industry Leaders Panel", Date = new DateOnly(2026, 5, 22), VenueId = 3, ImagePath = "techconf.jpg", TotalTickets = 250, TicketsLeft = 120},
+        new Event { Id = 7, Title = "Comedy Night", Artist = "Stand-up Comics Showcase", Date = new DateOnly(2026, 6, 5), VenueId = 1, ImagePath = "comedy.jpg", TotalTickets = 350, TicketsLeft = 200},
+        new Event { Id = 8, Title = "Classical Symphony", Artist = "Philharmonic Orchestra", Date = new DateOnly(2026, 7, 12), VenueId = 2, ImagePath = "symphony.jpg", TotalTickets = 900, TicketsLeft = 900},
+        new Event { Id = 9, Title = "Film Festival Opening", Artist = "International Cinema", Date = new DateOnly(2026, 8, 1), VenueId = 3, ImagePath = "filmfest.jpg", TotalTickets = 280, TicketsLeft = 180},
+        new Event { Id = 10, Title = "Dance Spectacular", Artist = "Contemporary Dance Ensemble", Date = new DateOnly(2026, 9, 18), VenueId = 1, ImagePath = "dance.jpg", TotalTickets = 450, TicketsLeft = 350}
     );
 }
 }

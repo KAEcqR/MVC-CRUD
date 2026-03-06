@@ -4,6 +4,7 @@ using MVC_CRUD.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MVC_CRUD.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260306230738_MGx11")]
+    partial class MGx11
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -151,7 +154,7 @@ namespace MVC_CRUD.Migrations
                             Artist = "John Smith",
                             CreationDate = new DateOnly(2026, 3, 7),
                             Date = new DateOnly(2024, 5, 15),
-                            ImagePath = "techexpo.jpg",
+                            ImagePath = "musicfest.jpg",
                             TicketsLeft = 1000,
                             Title = "Tech Expo",
                             TotalTickets = 1000,
@@ -163,7 +166,7 @@ namespace MVC_CRUD.Migrations
                             Artist = "Alice Lee",
                             CreationDate = new DateOnly(2026, 3, 7),
                             Date = new DateOnly(2025, 11, 20),
-                            ImagePath = "artshow.jpg",
+                            ImagePath = "musicfest.jpg",
                             TicketsLeft = 300,
                             Title = "Art Show",
                             TotalTickets = 300,
