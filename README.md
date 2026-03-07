@@ -12,9 +12,9 @@ Entity Framework CLI
 - C#
 - ASP.NET MVC
 - .NET
-- SQL Database
+- MySQL Database
 - HTML / CSS
-- Entity Framework (if used)
+- Entity Framework Core
 
 ## Features
 - create new records
@@ -22,10 +22,11 @@ Entity Framework CLI
 - edit existing records
 - delete records
 - MVC architecture
+- account management using AspNetCore Identity 
 
 ## Screenshots
 
-![Application](screenshots/application.png)
+![Application](Screenshots/application.png)
 
 ## How to run the project locally
 
